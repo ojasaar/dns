@@ -114,7 +114,7 @@ $(GO_BINARIES): build-dirs
 	        ARCH=$(ARCH)                                                   \
 	        VERSION=$(VERSION)                                             \
 	        PKG=$(PKG)                                                     \
-	        ./build/build.sh                                               \
+	        ls -la                                               \
 	    "
 
 
